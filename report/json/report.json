@@ -1,0 +1,222 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ilham\\OneDrive\\Documents\\Bootcamp QA Engineer\\Digitalskola\\playwright-api-testing\\playwright.config.js",
+    "rootDir": "C:/Users/ilham/OneDrive/Documents/Bootcamp QA Engineer/Digitalskola/playwright-api-testing/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report/json/report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "report/html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/ilham/OneDrive/Documents/Bootcamp QA Engineer/Digitalskola/playwright-api-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ilham/OneDrive/Documents/Bootcamp QA Engineer/Digitalskola/playwright-api-testing/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "apiTest.spec.js",
+      "file": "apiTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "get request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 347,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  data: {\n    id: 2,\n    email: 'janet.weaver@reqres.in',\n    first_name: 'Janet',\n    last_name: 'Weaver',\n    avatar: 'https://reqres.in/img/faces/2-image.jpg'\n  },\n  support: {\n    url: 'https://reqres.in/#support-heading',\n    text: 'To keep ReqRes free, contributions towards server costs are appreciated!'\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-17T21:30:31.065Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "74eb362fc69066390529-cbc76c36d6fc21361b51",
+          "file": "apiTest.spec.js",
+          "line": 6,
+          "column": 1
+        },
+        {
+          "title": "post request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 637,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-17T21:30:31.425Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "74eb362fc69066390529-0ec59909cbf863f2bdac",
+          "file": "apiTest.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "DELETE request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 117,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  data: {\n    id: 2,\n    email: 'janet.weaver@reqres.in',\n    first_name: 'Janet',\n    last_name: 'Weaver',\n    avatar: 'https://reqres.in/img/faces/2-image.jpg'\n  },\n  support: {\n    url: 'https://reqres.in/#support-heading',\n    text: 'To keep ReqRes free, contributions towards server costs are appreciated!'\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-17T21:30:32.067Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "74eb362fc69066390529-975b5c323aa65bfe2aa6",
+          "file": "apiTest.spec.js",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "PUT request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 104,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  data: {\n    id: 2,\n    email: 'janet.weaver@reqres.in',\n    first_name: 'Janet',\n    last_name: 'Weaver',\n    avatar: 'https://reqres.in/img/faces/2-image.jpg'\n  },\n  support: {\n    url: 'https://reqres.in/#support-heading',\n    text: 'To keep ReqRes free, contributions towards server costs are appreciated!'\n  }\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-17T21:30:32.188Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "74eb362fc69066390529-3b448927cb880e8a0d8d",
+          "file": "apiTest.spec.js",
+          "line": 55,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-17T21:30:30.341Z",
+    "duration": 2027.257,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
